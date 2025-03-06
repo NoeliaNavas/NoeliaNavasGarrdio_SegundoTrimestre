@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "tipografia";
+    src: url("Font/street.otf");
+  }
+/*estilos generales*/
+body{
+    text-align: center;
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+    font-family: "tipografia";
+}
+
+h1 {
+    color: crimson;
+    font-size: 46px;
+}
+
+h2{
+    color: crimson;
+    font-size: 28px;
+}
+ /*estilo tabla*/
+table{
+    margin: 0 auto;
+    height: 800px;
+    width: 600px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black ;
+}
+td{
+    width: 40px;
+    height: 45px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    color: darkorange;
+}
+
+.cabecera{
+    background-image: url(img/fondocabecera.jpg);
+    font-size: 40px;
+    color: whitesmoke;
+    opacity: 0.5;
+}
+
+/*estilo formulario*/
+
+form{
+    margin: 0 auto;
+    text-align: left;
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+
+.columna{
+    display: flex;
+    flex-direction: column; 
+}
+.datos_personales input,
+.direccion_calle{
+    margin: 20px 0;
+}
+
+.direccion input{
+    margin: 0;
+}
+
+
+.sexo-opcion {
+    display: flex;
+    align-items: center; 
+}
+
+legend{
+    font-family: "tipografia";
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+}
+#comentarios{
+    width: 560px;
+}
+.button input{
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: "tipografia";
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}

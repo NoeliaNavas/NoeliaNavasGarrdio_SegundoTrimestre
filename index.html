@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetFighter UNIR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/arcade.png" type="image/png">
+</head>
+<body>
+    <h1>To live is to fight, to fight is to live</h1>
+    <table>
+        <tr >
+            <td class="cabecera" colspan="4">STREET FIGHTER</td>
+        </tr>
+        <tr>
+            <td>
+                <figcaption>KEN</figcaption>
+                <img src="img/ken.png" alt="">
+            </td>
+            <td>
+                <figcaption>CHUN LI</figcaption>
+                <img src="img/ChunLi.png" alt="">
+            </td>
+            <td>
+                <figcaption>ZANGIEF</figcaption>
+                <img src="img/Zangief.png" alt="">
+            </td>
+            <td>
+                <figcaption>DHALSIM</figcaption>
+                <img src="img/Dhalsim.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <figcaption>RYU</figcaption>
+                <img src="img/Ryu.png" alt="">
+            </td>
+            <td>
+                <figcaption>E HONDA</figcaption>
+                <img src="img/EHonda.png" alt="">
+            </td>
+            <td>
+                <figcaption>BLANKA</figcaption>
+                <img src="img/Blanka.png" alt="">
+            </td>
+            <td>
+                <figcaption>GUILLE</figcaption>
+                <img src="img/Guille.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <figcaption>T HAWK</figcaption>
+                <img src="img/THawk.png" alt="">
+            </td>
+            <td>
+                <figcaption>FEILONG</figcaption>
+                <img src="img/Feilong.png" alt="">
+            </td>
+            <td>
+                <figcaption>DEE JAY</figcaption>
+                <img src="img/DeeJay.png" alt="">
+            </td>
+            <td>
+                <figcaption>CAMMY</figcaption>
+                <img src="img/Cammy.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <figcaption>BALROG</figcaption>
+                <img src="img/Balrog.png" alt="">
+            </td>
+            <td>
+                <figcaption>VEGA</figcaption>
+                <img src="img/Vega.png" alt="">
+            </td>
+            <td>
+                <figcaption>SAGAT</figcaption>
+                <img src="img/Sagat.png" alt="">
+            </td>
+            <td>
+                <figcaption>MBISON</figcaption>
+                <img src="img/MBison.png" alt="">
+            </td>
+        </tr>
+    </table>
+    <h2>Formulario de Inscripción para jugar a Street Figther</h2>
+    <form action="" method="post" autocomplete="on">
+        <fieldset class="datos_personales">
+            <legend>Datos Personales</legend>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" class="columna">
+            </div>
+        
+            <div>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" class="columna">
+            </div>
+        
+            <div class="direccion_calle">
+                <label for="direccion_calle">Dirección postal:</label>
+                <div class="direccion">
+                    <input type="text" name="calle" id="direccion_calle" placeholder="Calle">
+                    <input type="text" name="numero" id="direccion_numero" placeholder="Nº">
+                    <input type="text" name="piso" id="direccion_piso" placeholder="Piso">
+                    <input type="text" name="codigo_postal" id="direccion_codigo_postal" placeholder="Cód Postal">
+                    <input type="text" name="ciudad" id="direccion_ciudad" placeholder="Ciudad">
+                </div>
+            </div>
+        
+            <div>
+                <label for="nick">Nick:</label>
+                <input type="text" name="nick" class="columna">
+            </div>
+        
+            <div>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" name="correo" class="columna">
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Sexo Usuario</legend>
+                <div class="sexo-opcion">
+                    <input type="radio" name="sexo" id="mujer" value="Mujer">
+                    <label for="mujer">Mujer</label>
+                </div>
+        
+                <div class="sexo-option">
+                    <input type="radio" name="sexo" id="hombre" value="Hombre">
+                    <label for="hombre">Hombre</label>
+                </div>
+        
+                <div class="sexo-option">
+                    <input type="radio" name="sexo" id="no_indicado" value="No indicado">
+                    <label for="no_indicado">Prefiero No Decir</label>
+                </div>
+        </fieldset>
+        <fieldset>
+            <legend></legend>
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+            
+        </fieldset>
+        <fieldset>
+            <legend>Personajes</legend>
+            <label for="personaje">Selecciona el personaje:</label>
+            <select name="personaje_favorito" id="personaje">
+                <option value="1">KEN</option>
+                <option value="2">CHUN LI</option>
+                <option value="3">ZANGIEF</option>
+                <option value="4">DHALSIM</option>
+                <option value="5">RYU</option>
+                <option value="6">E HONDA</option>
+                <option value="7">BLANKA</option>
+                <option value="8">GUILLE</option>
+                <option value="9">T HAWK</option>
+                <option value="10">FEILONG</option>
+                <option value="11">DEE JAY</option>
+                <option value="12">CAMMY</option>
+                <option value="13">BALROG</option>
+                <option value="14">VEGA</option>
+                <option value="15">SAGAT</option>
+                <option value="16">MBISON</option>
+            </select>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Comentarios</legend>
+            <textarea id="comentarios" name="comentarios" maxlength="560"></textarea>
+        </fieldset>
+        <div class="button">
+            <input type="submit" value="Enviar"> 
+            <input type="reset" value="Borrar">
+        </div>    
+    </form>
+</body>
+</html>
